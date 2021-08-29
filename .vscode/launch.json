@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "preLaunchTask": "npm: start",
+            "request": "launch",
+            "name": "EdgeClient",
+            "url": "http://localhost:3005",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

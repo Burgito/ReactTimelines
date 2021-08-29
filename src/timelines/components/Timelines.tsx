@@ -30,8 +30,8 @@ const Zoom = styled.div.attrs({
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
-    min-width: 10rem; // TODO this could be changed for a const so it's the same as the displaysgroup container in tl
-    max-width: 10rem; // TODO this could be changed for a const so it's the same as the displaysgroup container in tl
+    min-width: 10rem; // TODO this could be changed for a const
+    max-width: 10rem; // TODO this could be changed for a const
     padding: 0.2rem 0.2rem 0.3rem 0.3rem; // TODO idem ?
     align-items: center;
 `;
@@ -40,8 +40,6 @@ const Scale = styled.div.attrs({
 })`
     width: 100%;
     height: 100%;
-    /* padding-left: 0.3rem; */
-    /* border: 3px solid transparent; */
 `;
 const Lines = styled.div.attrs({
     "data-testid": "tls-lines"

@@ -98,7 +98,7 @@ export const Programmation: React.FC = () => {
         if (destTLIndex < 0)
             return;
         let events = timelines[destTLIndex].events;
-        // Dropping from GE to TL
+        // Dropping from TLEvts to TL
         if (source.droppableId === TimelineElements.DroppableId) {
             const evt: ITimelineEvent = {
                 id: uuidv4(),

@@ -3,7 +3,7 @@ import { DragDropContext } from "react-beautiful-dnd";
 import TimelineElementsPanel from "../../../timelines/components/TimelineElementsPanel";
 import { TimelineElementType, ITimelineElement } from "../../../timelines/interfaces/ITimelineElement";
 
-describe("GE Panel tests", () => {
+describe("TLEvts Panel tests", () => {
     const initialGES: ITimelineElement[] = [
         {
             "id": "abc1",
